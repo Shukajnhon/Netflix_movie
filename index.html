@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+
+</head>
+
+<body>
+
+    <div class="main grid">
+
+        <header class="header">
+            <a class="header__logo" href="#">
+                <img class="header__logo-img" src="./assets/img/logo_netflix.png" alt="">
+            </a>
+            <ul class="header__navbar-lists">
+                <li class="header__navbar-items">
+                    <a href="">Trang chủ</a>
+                </li>
+                <li class="header__navbar-items">
+                    <a href="">T.hình</a>
+                </li>
+                <li class="header__navbar-items">
+                    <a href="">Phim</a>
+                </li>
+                <li class="header__navbar-items">
+                    <a href="">Mới & Phổ biến</a>
+                </li>
+                <li class="header__navbar-items">
+                    <a href="">Danh sách của tôi</a>
+                </li>
+            </ul>
+
+            <div class="secondary__navbar">
+                <div class="secondary__navbar-items">
+                    <div class="secondary__navbar-icon">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                </div>
+                <div class="secondary__navbar-items">
+                    <span class="secondary__navbar-notification">
+                        <i class="fa-solid fa-bell"></i>
+                    </span>
+                </div>
+                <div class="secondary__navbar-items">
+                    <div class="secondary__navbar-account">
+                        <img class="secondary__navbar-account-img" src="./assets/img/avatar.png" alt="">
+                        <i class="fa-solid fa-caret-down secondary__navbar-account-icon"></i>
+                    </div>
+                </div>
+            </div>
+
+        </header>
+
+        <div class="carousel">
+            <!-- carousel__video -->
+            <div class="carousel__video grid">
+                <video class="carousel__video video-1" type="video/mp4" autoplay muted
+                    src="./assets/movies/John-Wick_Chapter_4.mp4"></video>
+            </div>
+            <!--carousel__info -->
+            <div class="carousel__info">
+                <div class="carousel__info-title">
+                    <h3>JONH WICK 4</h3>
+                </div>
+                <div class="carousel__info-desc">
+                    <p>John Wick: Chapter 4 là bộ phim hành động kịch tính neo-noir của Mỹ được đạo diễn bởi Chad
+                        Stahelski. Đây là phần hậu truyện của bộ phim Sát thủ John Wick.
+                    </p>
+                </div>
+
+                <div class="carousel__info-btn">
+                    <div class="carousel__info-btn-wrap">
+                        <a class="carousel__info-link" href="">
+                            <button class="carousel__info-link-btn">
+                                <i class="fa-solid fa-play info-link-btn-icon"></i>
+                                <span>Phát</span>
+                            </button>
+                        </a>
+
+                    </div>
+
+                    <button class="carousel__info-link carousel__btn">
+                        <div class="carousel__btn-wrap">
+                            <i class="fa-solid fa-circle-info carousel__btn-wrap-icon"></i>
+                            <span>Thông tin khác</span>
+                        </div>
+                    </button>
+                </div>
+            </div>
+
+            <!--carousel__embed -->
+            <div class="carousel__embed">
+                <div class="carousel__embed-age">
+                    <span>18+</span>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Content -->
+        <div class="netflix__content">
+            <!-- Popular -->
+            <section id="netflix-popular">
+                <div class="popular__content">
+                    <h2>Phổ biến trên Netflix</h2>
+
+                    <button type="button" class="nav-slider" id="move-left">
+                        ᐊ
+                    </button>
+                    <div class="popular-indicator">
+                        <div class="indicator active" data-index="0"></div>
+                        <div class="indicator" data-index="1"></div>
+                        <div class="indicator" data-index="2"></div>
+                    </div>
+
+                    <div class="slider" id="popularSlider">
+                        <div id="thumb0" class="thumb">
+                            <img src="./assets/img/hen-ho-chon-cong-so-2.jpeg" alt="" class="thumb-img">
+
+                            <div class="card card-popular">
+                                <div class="card-body ">
+                                    <div class="card-body-content">
+                                        <div class="card-icon">
+                                            <div class="card-icon-wrap">
+                                                <div class="card-icon-item">
+                                                    <div class="card-icon-play">
+                                                        <i class="fa-solid fa-circle-play"></i>
+                                                    </div>
+                                                </div>
+
+                                                <div class="card-icon-item">
+                                                    <div class="card-icon-plus">
+                                                        <i class="fa-solid fa-circle-plus"></i>
+                                                        <!-- them vao danh sach -->
+                                                        <div class="add-list">
+                                                            <p class="add-list-text">Thêm vào Danh sách của tôi</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="card-icon-item">
+                                                    <div class="card-icon-like">
+                                                        <i class="fa-solid fa-thumbs-up"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card-icon-more">
+                                                <div class="card-icon-down">
+                                                    <i class="fa-solid fa-chevron-down"></i>
+                                                    <!-- More info -->
+                                                    <div class="more-info">
+                                                        <div class="more-info-text">Thông tin khác</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="card-content">
+                                            <div class="content-first">
+                                                <span>Độ trùng: 98%</span>
+                                            </div>
+                                            <div class="content-age">
+                                                <span>13+</span>
+                                            </div>
+                                            <div class="content-season">
+                                                <span>1 Mùa</span>
+                                            </div>
+                                            <div class="content-quality">
+                                                <span>HD</span>
+                                            </div>
+                                        </div>
+                                        <div class="card-type">
+                                            <ul class="card-type-list">
+                                                <li class="card-type-item">
+                                                    <p>Lãng mạng</p>
+                                                </li>
+                                                <li class="card-type-item">
+                                                    <p>Hành động</p>
+                                                </li>
+                                                <li class="card-type-item">
+                                                    <p>Gây cấn</p>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <button type="button" class="nav-slider" id="move-right">
+                        ᐅ
+                    </button>
+                </div>
+
+            </section>
+
+        </div>
+
+        <div class="a"></div>
+    </div>
+
+
+</body>
+
+</html>
