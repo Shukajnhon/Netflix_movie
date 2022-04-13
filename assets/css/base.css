@@ -1,0 +1,14 @@
+:root {
+    --background-color: #141414;
+    --background-btn: #5c5c5c;
+    --white-color: #fff;
+
+    /* --slider-height: 121px;
+    --slider-width-item: 218px; */
+
+    --slider-height-item: 352px;
+    --slider-width-item: 326px;
+    --thumb-height: 124px;
+    --thumb-width: 220px;
+    --card-movie-top: -80px;
+}
