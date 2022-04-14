@@ -110,622 +110,1267 @@
 
         <!-- Content -->
         <div class="netflix__content">
+            <!-- Mới phát hành -->
+            <section id="netflix-newThisweek">
+                <div class="netflix-content">
+                    <h2 class="content-header">
+                        <a class="content-header-link" href="#">
+                            <div class="content-header-title">Mới phát hành</div>
+                            <div class="sub-header">
+                                <div class="sub-header-link">Xem tất cả</div>
+                                <div class="sub-header-icon">
+                                    <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                            </div>
+                        </a>
+                    </h2>
+
+                    <div class="netflix-content-body">
+                        <button type="button" class="nav-slider" id="move-left">
+                            <i class="fa-solid fa-chevron-left nav-slider-icon"></i>
+                        </button>
+                        <div class="slider-indicator">
+                            <div class="indicator active" data-index="0"></div>
+                            <div class="indicator" data-index="1"></div>
+                            <div class="indicator" data-index="2"></div>
+                        </div>
+
+                        <div class="slider" id="popularSlider">
+                            <div id="thumb0" class="thumb">
+                                <img src="./assets/img/newThisWeek/yaksha.jpeg" alt="" class="thumb-img">
+
+                                <div class="card">
+                                    <img src="./assets/img/newThisWeek/yaksha.jpeg" alt="" class="card-movie">
+                                    <div class="card-body">
+                                        <div class="card-body-content">
+                                            <div class="card-icon">
+                                                <div class="card-icon-wrap">
+                                                    <div class="card-icon-item">
+                                                        <div class="card-icon-play">
+                                                            <i class="fa-solid fa-circle-play"></i>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="card-icon-item">
+                                                        <div class="card-icon-plus">
+                                                            <i class="fa-solid fa-circle-plus"></i>
+                                                            <!-- them vao danh sach -->
+                                                            <div class="add-list">
+                                                                <p class="add-list-text">Thêm vào Danh sách của tôi</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="card-icon-item">
+                                                        <div class="card-icon-like">
+                                                            <i class="fa-solid fa-thumbs-up"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="card-icon-more">
+                                                    <div class="card-icon-down">
+                                                        <i class="fa-solid fa-chevron-down"></i>
+                                                        <!-- More info -->
+                                                        <div class="more-info">
+                                                            <div class="more-info-text">Thông tin khác</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="card-content">
+                                                <div class="content-first">
+                                                    <span>Độ trùng: 98%</span>
+                                                </div>
+                                                <div class="content-age">
+                                                    <span>13+</span>
+                                                </div>
+                                                <div class="content-season">
+                                                    <span>1 Mùa</span>
+                                                </div>
+                                                <div class="content-quality">
+                                                    <span>HD</span>
+                                                </div>
+                                            </div>
+                                            <div class="card-type">
+                                                <ul class="card-type-list">
+                                                    <li class="card-type-item">
+                                                        <p>Lãng mạng</p>
+                                                    </li>
+                                                    <li class="card-type-item">
+                                                        <p>Hành động</p>
+                                                    </li>
+                                                    <li class="card-type-item">
+                                                        <p>Gây cấn</p>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- 2 -->
+                            <div id="thumb0" class="thumb">
+                                <img src="./assets/img/newThisWeek/all-of-us-are-dead.jpeg" alt="" class="thumb-img">
+
+                                <div class="card netflix-card">
+                                    <img src="./assets/img/newThisWeek/all-of-us-are-dead.jpeg" alt=""
+                                        class="card-movie">
+                                    <div class="card-body">
+                                        <div class="card-body-content">
+                                            <div class="card-icon">
+                                                <div class="card-icon-wrap">
+                                                    <div class="card-icon-item">
+                                                        <div class="card-icon-play">
+                                                            <i class="fa-solid fa-circle-play"></i>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="card-icon-item">
+                                                        <div class="card-icon-plus">
+                                                            <i class="fa-solid fa-circle-plus"></i>
+                                                            <!-- them vao danh sach -->
+                                                            <div class="add-list">
+                                                                <p class="add-list-text">Thêm vào Danh sách của tôi</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="card-icon-item">
+                                                        <div class="card-icon-like">
+                                                            <i class="fa-solid fa-thumbs-up"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="card-icon-more">
+                                                    <div class="card-icon-down">
+                                                        <i class="fa-solid fa-chevron-down"></i>
+                                                        <!-- More info -->
+                                                        <div class="more-info">
+                                                            <div class="more-info-text">Thông tin khác</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="card-content">
+                                                <div class="content-first">
+                                                    <span>Độ trùng: 98%</span>
+                                                </div>
+                                                <div class="content-age">
+                                                    <span>13+</span>
+                                                </div>
+                                                <div class="content-season">
+                                                    <span>1 Mùa</span>
+                                                </div>
+                                                <div class="content-quality">
+                                                    <span>HD</span>
+                                                </div>
+                                            </div>
+                                            <div class="card-type">
+                                                <ul class="card-type-list">
+                                                    <li class="card-type-item">
+                                                        <p>Lãng mạng</p>
+                                                    </li>
+                                                    <li class="card-type-item">
+                                                        <p>Hành động</p>
+                                                    </li>
+                                                    <li class="card-type-item">
+                                                        <p>Gây cấn</p>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div id="thumb0" class="thumb">
+                                <img src="./assets/img/newThisWeek/Blues.jpeg" alt="" class="thumb-img">
+
+                                <div class="card netflix-card">
+                                    <img src="./assets/img/newThisWeek/Blues.jpeg" alt="" class="card-movie">
+                                    <div class="card-body">
+                                        <div class="card-body-content">
+                                            <div class="card-icon">
+                                                <div class="card-icon-wrap">
+                                                    <div class="card-icon-item">
+                                                        <div class="card-icon-play">
+                                                            <i class="fa-solid fa-circle-play"></i>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="card-icon-item">
+                                                        <div class="card-icon-plus">
+                                                            <i class="fa-solid fa-circle-plus"></i>
+                                                            <!-- them vao danh sach -->
+                                                            <div class="add-list">
+                                                                <p class="add-list-text">Thêm vào Danh sách của tôi</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="card-icon-item">
+                                                        <div class="card-icon-like">
+                                                            <i class="fa-solid fa-thumbs-up"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="card-icon-more">
+                                                    <div class="card-icon-down">
+                                                        <i class="fa-solid fa-chevron-down"></i>
+                                                        <!-- More info -->
+                                                        <div class="more-info">
+                                                            <div class="more-info-text">Thông tin khác</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="card-content">
+                                                <div class="content-first">
+                                                    <span>Độ trùng: 98%</span>
+                                                </div>
+                                                <div class="content-age">
+                                                    <span>13+</span>
+                                                </div>
+                                                <div class="content-season">
+                                                    <span>1 Mùa</span>
+                                                </div>
+                                                <div class="content-quality">
+                                                    <span>HD</span>
+                                                </div>
+                                            </div>
+                                            <div class="card-type">
+                                                <ul class="card-type-list">
+                                                    <li class="card-type-item">
+                                                        <p>Lãng mạng</p>
+                                                    </li>
+                                                    <li class="card-type-item">
+                                                        <p>Hành động</p>
+                                                    </li>
+                                                    <li class="card-type-item">
+                                                        <p>Gây cấn</p>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div id="thumb0" class="thumb">
+                                <img src="./assets/img/newThisWeek/brigerton.jpeg" alt="" class="thumb-img">
+
+                                <div class="card netflix-card">
+                                    <img src="./assets/img/newThisWeek/brigerton.jpeg" alt="" class="card-movie">
+                                    <div class="card-body">
+                                        <div class="card-body-content">
+                                            <div class="card-icon">
+                                                <div class="card-icon-wrap">
+                                                    <div class="card-icon-item">
+                                                        <div class="card-icon-play">
+                                                            <i class="fa-solid fa-circle-play"></i>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="card-icon-item">
+                                                        <div class="card-icon-plus">
+                                                            <i class="fa-solid fa-circle-plus"></i>
+                                                            <!-- them vao danh sach -->
+                                                            <div class="add-list">
+                                                                <p class="add-list-text">Thêm vào Danh sách của tôi</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="card-icon-item">
+                                                        <div class="card-icon-like">
+                                                            <i class="fa-solid fa-thumbs-up"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="card-icon-more">
+                                                    <div class="card-icon-down">
+                                                        <i class="fa-solid fa-chevron-down"></i>
+                                                        <!-- More info -->
+                                                        <div class="more-info">
+                                                            <div class="more-info-text">Thông tin khác</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="card-content">
+                                                <div class="content-first">
+                                                    <span>Độ trùng: 98%</span>
+                                                </div>
+                                                <div class="content-age">
+                                                    <span>13+</span>
+                                                </div>
+                                                <div class="content-season">
+                                                    <span>1 Mùa</span>
+                                                </div>
+                                                <div class="content-quality">
+                                                    <span>HD</span>
+                                                </div>
+                                            </div>
+                                            <div class="card-type">
+                                                <ul class="card-type-list">
+                                                    <li class="card-type-item">
+                                                        <p>Lãng mạng</p>
+                                                    </li>
+                                                    <li class="card-type-item">
+                                                        <p>Hành động</p>
+                                                    </li>
+                                                    <li class="card-type-item">
+                                                        <p>Gây cấn</p>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div id="thumb0" class="thumb">
+                                <img src="./assets/img/newThisWeek/chung-cu-co-doc.webp" alt="" class="thumb-img">
+
+                                <div class="card netflix-card">
+                                    <img src="./assets/img/newThisWeek/chung-cu-co-doc.webp" alt="" class="card-movie">
+                                    <div class="card-body">
+                                        <div class="card-body-content">
+                                            <div class="card-icon">
+                                                <div class="card-icon-wrap">
+                                                    <div class="card-icon-item">
+                                                        <div class="card-icon-play">
+                                                            <i class="fa-solid fa-circle-play"></i>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="card-icon-item">
+                                                        <div class="card-icon-plus">
+                                                            <i class="fa-solid fa-circle-plus"></i>
+                                                            <!-- them vao danh sach -->
+                                                            <div class="add-list">
+                                                                <p class="add-list-text">Thêm vào Danh sách của tôi</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="card-icon-item">
+                                                        <div class="card-icon-like">
+                                                            <i class="fa-solid fa-thumbs-up"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="card-icon-more">
+                                                    <div class="card-icon-down">
+                                                        <i class="fa-solid fa-chevron-down"></i>
+                                                        <!-- More info -->
+                                                        <div class="more-info">
+                                                            <div class="more-info-text">Thông tin khác</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="card-content">
+                                                <div class="content-first">
+                                                    <span>Độ trùng: 98%</span>
+                                                </div>
+                                                <div class="content-age">
+                                                    <span>13+</span>
+                                                </div>
+                                                <div class="content-season">
+                                                    <span>1 Mùa</span>
+                                                </div>
+                                                <div class="content-quality">
+                                                    <span>HD</span>
+                                                </div>
+                                            </div>
+                                            <div class="card-type">
+                                                <ul class="card-type-list">
+                                                    <li class="card-type-item">
+                                                        <p>Lãng mạng</p>
+                                                    </li>
+                                                    <li class="card-type-item">
+                                                        <p>Hành động</p>
+                                                    </li>
+                                                    <li class="card-type-item">
+                                                        <p>Gây cấn</p>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div id="thumb0" class="thumb">
+                                <img src="./assets/img/newThisWeek/Trum-com-va-ac-quy.jpeg" alt="" class="thumb-img">
+
+                                <div class="card netflix-card">
+                                    <img src="./assets/img/newThisWeek/Trum-com-va-ac-quy.jpeg" alt=""
+                                        class="card-movie">
+                                    <div class="card-body">
+                                        <div class="card-body-content">
+                                            <div class="card-icon">
+                                                <div class="card-icon-wrap">
+                                                    <div class="card-icon-item">
+                                                        <div class="card-icon-play">
+                                                            <i class="fa-solid fa-circle-play"></i>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="card-icon-item">
+                                                        <div class="card-icon-plus">
+                                                            <i class="fa-solid fa-circle-plus"></i>
+                                                            <!-- them vao danh sach -->
+                                                            <div class="add-list">
+                                                                <p class="add-list-text">Thêm vào Danh sách của tôi</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="card-icon-item">
+                                                        <div class="card-icon-like">
+                                                            <i class="fa-solid fa-thumbs-up"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="card-icon-more">
+                                                    <div class="card-icon-down">
+                                                        <i class="fa-solid fa-chevron-down"></i>
+                                                        <!-- More info -->
+                                                        <div class="more-info">
+                                                            <div class="more-info-text">Thông tin khác</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="card-content">
+                                                <div class="content-first">
+                                                    <span>Độ trùng: 98%</span>
+                                                </div>
+                                                <div class="content-age">
+                                                    <span>13+</span>
+                                                </div>
+                                                <div class="content-season">
+                                                    <span>1 Mùa</span>
+                                                </div>
+                                                <div class="content-quality">
+                                                    <span>HD</span>
+                                                </div>
+                                            </div>
+                                            <div class="card-type">
+                                                <ul class="card-type-list">
+                                                    <li class="card-type-item">
+                                                        <p>Lãng mạng</p>
+                                                    </li>
+                                                    <li class="card-type-item">
+                                                        <p>Hành động</p>
+                                                    </li>
+                                                    <li class="card-type-item">
+                                                        <p>Gây cấn</p>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div id="thumb0" class="thumb">
+                                <img src="./assets/img/newThisWeek/tomorrow.jpeg" alt="" class="thumb-img">
+
+                                <div class="card netflix-card">
+                                    <img src="./assets/img/newThisWeek/tomorrow.jpeg" alt="" class="card-movie">
+                                    <div class="card-body">
+                                        <div class="card-body-content">
+                                            <div class="card-icon">
+                                                <div class="card-icon-wrap">
+                                                    <div class="card-icon-item">
+                                                        <div class="card-icon-play">
+                                                            <i class="fa-solid fa-circle-play"></i>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="card-icon-item">
+                                                        <div class="card-icon-plus">
+                                                            <i class="fa-solid fa-circle-plus"></i>
+                                                            <!-- them vao danh sach -->
+                                                            <div class="add-list">
+                                                                <p class="add-list-text">Thêm vào Danh sách của tôi</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="card-icon-item">
+                                                        <div class="card-icon-like">
+                                                            <i class="fa-solid fa-thumbs-up"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="card-icon-more">
+                                                    <div class="card-icon-down">
+                                                        <i class="fa-solid fa-chevron-down"></i>
+                                                        <!-- More info -->
+                                                        <div class="more-info">
+                                                            <div class="more-info-text">Thông tin khác</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="card-content">
+                                                <div class="content-first">
+                                                    <span>Độ trùng: 98%</span>
+                                                </div>
+                                                <div class="content-age">
+                                                    <span>13+</span>
+                                                </div>
+                                                <div class="content-season">
+                                                    <span>1 Mùa</span>
+                                                </div>
+                                                <div class="content-quality">
+                                                    <span>HD</span>
+                                                </div>
+                                            </div>
+                                            <div class="card-type">
+                                                <ul class="card-type-list">
+                                                    <li class="card-type-item">
+                                                        <p>Lãng mạng</p>
+                                                    </li>
+                                                    <li class="card-type-item">
+                                                        <p>Hành động</p>
+                                                    </li>
+                                                    <li class="card-type-item">
+                                                        <p>Gây cấn</p>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div id="thumb0" class="thumb">
+                                <img src="./assets/img/newThisWeek/tomorrow.jpeg" alt="" class="thumb-img">
+
+                                <div class="card netflix-card">
+                                    <img src="./assets/img/newThisWeek/tomorrow.jpeg" alt="" class="card-movie">
+                                    <div class="card-body">
+                                        <div class="card-body-content">
+                                            <div class="card-icon">
+                                                <div class="card-icon-wrap">
+                                                    <div class="card-icon-item">
+                                                        <div class="card-icon-play">
+                                                            <i class="fa-solid fa-circle-play"></i>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="card-icon-item">
+                                                        <div class="card-icon-plus">
+                                                            <i class="fa-solid fa-circle-plus"></i>
+                                                            <!-- them vao danh sach -->
+                                                            <div class="add-list">
+                                                                <p class="add-list-text">Thêm vào Danh sách của tôi</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="card-icon-item">
+                                                        <div class="card-icon-like">
+                                                            <i class="fa-solid fa-thumbs-up"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="card-icon-more">
+                                                    <div class="card-icon-down">
+                                                        <i class="fa-solid fa-chevron-down"></i>
+                                                        <!-- More info -->
+                                                        <div class="more-info">
+                                                            <div class="more-info-text">Thông tin khác</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="card-content">
+                                                <div class="content-first">
+                                                    <span>Độ trùng: 98%</span>
+                                                </div>
+                                                <div class="content-age">
+                                                    <span>13+</span>
+                                                </div>
+                                                <div class="content-season">
+                                                    <span>1 Mùa</span>
+                                                </div>
+                                                <div class="content-quality">
+                                                    <span>HD</span>
+                                                </div>
+                                            </div>
+                                            <div class="card-type">
+                                                <ul class="card-type-list">
+                                                    <li class="card-type-item">
+                                                        <p>Lãng mạng</p>
+                                                    </li>
+                                                    <li class="card-type-item">
+                                                        <p>Hành động</p>
+                                                    </li>
+                                                    <li class="card-type-item">
+                                                        <p>Gây cấn</p>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button type="button" class="nav-slider" id="move-right">
+                            <i class="fa-solid fa-chevron-right nav-slider-icon"></i>
+                        </button>
+
+                    </div>
+                </div>
+
+            </section>
+
             <!-- Popular -->
             <section id="netflix-popular">
-                <div class="popular__content">
-                    <h2>Phổ biến trên Netflix</h2>
+                <div class="netflix-content">
+                    <h2 class="content-header">
+                        <a class="content-header-link" href="#">
+                            <div class="content-header-title">Phổ biến trên Netflix</div>
+                            <div class="sub-header">
+                                <div class="sub-header-link">Xem tất cả</div>
+                                <div class="sub-header-icon">
+                                    <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                            </div>
+                        </a>
+                    </h2>
 
-                    <button type="button" class="nav-slider" id="move-left">
-                        <i class="fa-solid fa-chevron-left nav-slider-icon"></i>
-                    </button>
-                    <div class="popular-indicator">
-                        <div class="indicator active" data-index="0"></div>
-                        <div class="indicator" data-index="1"></div>
-                        <div class="indicator" data-index="2"></div>
+                    <div class="netflix-content-body">
+                        <button type="button" class="nav-slider" id="move-left">
+                            <i class="fa-solid fa-chevron-left nav-slider-icon"></i>
+                        </button>
+                        <div class="slider-indicator">
+                            <div class="indicator active" data-index="0"></div>
+                            <div class="indicator" data-index="1"></div>
+                            <div class="indicator" data-index="2"></div>
+                        </div>
+
+                        <div class="slider" id="popularSlider">
+                            <div id="thumb0" class="thumb">
+                                <img src="./assets/img/popular/hen-ho-chon-cong-so-2.jpeg" alt="" class="thumb-img">
+
+                                <div class="card">
+                                    <img src="./assets/img/popular/hen-ho-chon-cong-so-2.jpeg" alt=""
+                                        class="card-movie">
+                                    <div class="card-body">
+                                        <div class="card-body-content">
+                                            <div class="card-icon">
+                                                <div class="card-icon-wrap">
+                                                    <div class="card-icon-item">
+                                                        <div class="card-icon-play">
+                                                            <i class="fa-solid fa-circle-play"></i>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="card-icon-item">
+                                                        <div class="card-icon-plus">
+                                                            <i class="fa-solid fa-circle-plus"></i>
+                                                            <!-- them vao danh sach -->
+                                                            <div class="add-list">
+                                                                <p class="add-list-text">Thêm vào Danh sách của tôi</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="card-icon-item">
+                                                        <div class="card-icon-like">
+                                                            <i class="fa-solid fa-thumbs-up"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="card-icon-more">
+                                                    <div class="card-icon-down">
+                                                        <i class="fa-solid fa-chevron-down"></i>
+                                                        <!-- More info -->
+                                                        <div class="more-info">
+                                                            <div class="more-info-text">Thông tin khác</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="card-content">
+                                                <div class="content-first">
+                                                    <span>Độ trùng: 98%</span>
+                                                </div>
+                                                <div class="content-age">
+                                                    <span>13+</span>
+                                                </div>
+                                                <div class="content-season">
+                                                    <span>1 Mùa</span>
+                                                </div>
+                                                <div class="content-quality">
+                                                    <span>HD</span>
+                                                </div>
+                                            </div>
+                                            <div class="card-type">
+                                                <ul class="card-type-list">
+                                                    <li class="card-type-item">
+                                                        <p>Lãng mạng</p>
+                                                    </li>
+                                                    <li class="card-type-item">
+                                                        <p>Hành động</p>
+                                                    </li>
+                                                    <li class="card-type-item">
+                                                        <p>Gây cấn</p>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- 2 -->
+                            <div id="thumb0" class="thumb">
+                                <img src="./assets/img/popular/bach-xa.jpeg" alt="" class="thumb-img">
+
+                                <div class="card netflix-card">
+                                    <img src="./assets/img/popular/bach-xa.jpeg" alt="" class="card-movie">
+                                    <div class="card-body">
+                                        <div class="card-body-content">
+                                            <div class="card-icon">
+                                                <div class="card-icon-wrap">
+                                                    <div class="card-icon-item">
+                                                        <div class="card-icon-play">
+                                                            <i class="fa-solid fa-circle-play"></i>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="card-icon-item">
+                                                        <div class="card-icon-plus">
+                                                            <i class="fa-solid fa-circle-plus"></i>
+                                                            <!-- them vao danh sach -->
+                                                            <div class="add-list">
+                                                                <p class="add-list-text">Thêm vào Danh sách của tôi</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="card-icon-item">
+                                                        <div class="card-icon-like">
+                                                            <i class="fa-solid fa-thumbs-up"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="card-icon-more">
+                                                    <div class="card-icon-down">
+                                                        <i class="fa-solid fa-chevron-down"></i>
+                                                        <!-- More info -->
+                                                        <div class="more-info">
+                                                            <div class="more-info-text">Thông tin khác</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="card-content">
+                                                <div class="content-first">
+                                                    <span>Độ trùng: 98%</span>
+                                                </div>
+                                                <div class="content-age">
+                                                    <span>13+</span>
+                                                </div>
+                                                <div class="content-season">
+                                                    <span>1 Mùa</span>
+                                                </div>
+                                                <div class="content-quality">
+                                                    <span>HD</span>
+                                                </div>
+                                            </div>
+                                            <div class="card-type">
+                                                <ul class="card-type-list">
+                                                    <li class="card-type-item">
+                                                        <p>Lãng mạng</p>
+                                                    </li>
+                                                    <li class="card-type-item">
+                                                        <p>Hành động</p>
+                                                    </li>
+                                                    <li class="card-type-item">
+                                                        <p>Gây cấn</p>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div id="thumb0" class="thumb">
+                                <img src="./assets/img/popular/du-bao-tinh-yeu.jpeg" alt="" class="thumb-img">
+
+                                <div class="card netflix-card">
+                                    <img src="./assets/img/popular/du-bao-tinh-yeu.jpeg" alt="" class="card-movie">
+                                    <div class="card-body">
+                                        <div class="card-body-content">
+                                            <div class="card-icon">
+                                                <div class="card-icon-wrap">
+                                                    <div class="card-icon-item">
+                                                        <div class="card-icon-play">
+                                                            <i class="fa-solid fa-circle-play"></i>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="card-icon-item">
+                                                        <div class="card-icon-plus">
+                                                            <i class="fa-solid fa-circle-plus"></i>
+                                                            <!-- them vao danh sach -->
+                                                            <div class="add-list">
+                                                                <p class="add-list-text">Thêm vào Danh sách của tôi</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="card-icon-item">
+                                                        <div class="card-icon-like">
+                                                            <i class="fa-solid fa-thumbs-up"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="card-icon-more">
+                                                    <div class="card-icon-down">
+                                                        <i class="fa-solid fa-chevron-down"></i>
+                                                        <!-- More info -->
+                                                        <div class="more-info">
+                                                            <div class="more-info-text">Thông tin khác</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="card-content">
+                                                <div class="content-first">
+                                                    <span>Độ trùng: 98%</span>
+                                                </div>
+                                                <div class="content-age">
+                                                    <span>13+</span>
+                                                </div>
+                                                <div class="content-season">
+                                                    <span>1 Mùa</span>
+                                                </div>
+                                                <div class="content-quality">
+                                                    <span>HD</span>
+                                                </div>
+                                            </div>
+                                            <div class="card-type">
+                                                <ul class="card-type-list">
+                                                    <li class="card-type-item">
+                                                        <p>Lãng mạng</p>
+                                                    </li>
+                                                    <li class="card-type-item">
+                                                        <p>Hành động</p>
+                                                    </li>
+                                                    <li class="card-type-item">
+                                                        <p>Gây cấn</p>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div id="thumb0" class="thumb">
+                                <img src="./assets/img/popular/Ky-sy-bong-dem.jpeg" alt="" class="thumb-img">
+
+                                <div class="card netflix-card">
+                                    <img src="./assets/img/popular/Ky-sy-bong-dem.jpeg" alt="" class="card-movie">
+                                    <div class="card-body">
+                                        <div class="card-body-content">
+                                            <div class="card-icon">
+                                                <div class="card-icon-wrap">
+                                                    <div class="card-icon-item">
+                                                        <div class="card-icon-play">
+                                                            <i class="fa-solid fa-circle-play"></i>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="card-icon-item">
+                                                        <div class="card-icon-plus">
+                                                            <i class="fa-solid fa-circle-plus"></i>
+                                                            <!-- them vao danh sach -->
+                                                            <div class="add-list">
+                                                                <p class="add-list-text">Thêm vào Danh sách của tôi</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="card-icon-item">
+                                                        <div class="card-icon-like">
+                                                            <i class="fa-solid fa-thumbs-up"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="card-icon-more">
+                                                    <div class="card-icon-down">
+                                                        <i class="fa-solid fa-chevron-down"></i>
+                                                        <!-- More info -->
+                                                        <div class="more-info">
+                                                            <div class="more-info-text">Thông tin khác</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="card-content">
+                                                <div class="content-first">
+                                                    <span>Độ trùng: 98%</span>
+                                                </div>
+                                                <div class="content-age">
+                                                    <span>13+</span>
+                                                </div>
+                                                <div class="content-season">
+                                                    <span>1 Mùa</span>
+                                                </div>
+                                                <div class="content-quality">
+                                                    <span>HD</span>
+                                                </div>
+                                            </div>
+                                            <div class="card-type">
+                                                <ul class="card-type-list">
+                                                    <li class="card-type-item">
+                                                        <p>Lãng mạng</p>
+                                                    </li>
+                                                    <li class="card-type-item">
+                                                        <p>Hành động</p>
+                                                    </li>
+                                                    <li class="card-type-item">
+                                                        <p>Gây cấn</p>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div id="thumb0" class="thumb">
+                                <img src="./assets/img/popular/lang-khach.jpeg" alt="" class="thumb-img">
+
+                                <div class="card netflix-card">
+                                    <img src="./assets/img/popular/lang-khach.jpeg" alt="" class="card-movie">
+                                    <div class="card-body">
+                                        <div class="card-body-content">
+                                            <div class="card-icon">
+                                                <div class="card-icon-wrap">
+                                                    <div class="card-icon-item">
+                                                        <div class="card-icon-play">
+                                                            <i class="fa-solid fa-circle-play"></i>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="card-icon-item">
+                                                        <div class="card-icon-plus">
+                                                            <i class="fa-solid fa-circle-plus"></i>
+                                                            <!-- them vao danh sach -->
+                                                            <div class="add-list">
+                                                                <p class="add-list-text">Thêm vào Danh sách của tôi</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="card-icon-item">
+                                                        <div class="card-icon-like">
+                                                            <i class="fa-solid fa-thumbs-up"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="card-icon-more">
+                                                    <div class="card-icon-down">
+                                                        <i class="fa-solid fa-chevron-down"></i>
+                                                        <!-- More info -->
+                                                        <div class="more-info">
+                                                            <div class="more-info-text">Thông tin khác</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="card-content">
+                                                <div class="content-first">
+                                                    <span>Độ trùng: 98%</span>
+                                                </div>
+                                                <div class="content-age">
+                                                    <span>13+</span>
+                                                </div>
+                                                <div class="content-season">
+                                                    <span>1 Mùa</span>
+                                                </div>
+                                                <div class="content-quality">
+                                                    <span>HD</span>
+                                                </div>
+                                            </div>
+                                            <div class="card-type">
+                                                <ul class="card-type-list">
+                                                    <li class="card-type-item">
+                                                        <p>Lãng mạng</p>
+                                                    </li>
+                                                    <li class="card-type-item">
+                                                        <p>Hành động</p>
+                                                    </li>
+                                                    <li class="card-type-item">
+                                                        <p>Gây cấn</p>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div id="thumb0" class="thumb">
+                                <img src="./assets/img/popular/nghe-thuat-san-quy.jpeg" alt="" class="thumb-img">
+
+                                <div class="card netflix-card">
+                                    <img src="./assets/img/popular/nghe-thuat-san-quy.jpeg" alt="" class="card-movie">
+                                    <div class="card-body">
+                                        <div class="card-body-content">
+                                            <div class="card-icon">
+                                                <div class="card-icon-wrap">
+                                                    <div class="card-icon-item">
+                                                        <div class="card-icon-play">
+                                                            <i class="fa-solid fa-circle-play"></i>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="card-icon-item">
+                                                        <div class="card-icon-plus">
+                                                            <i class="fa-solid fa-circle-plus"></i>
+                                                            <!-- them vao danh sach -->
+                                                            <div class="add-list">
+                                                                <p class="add-list-text">Thêm vào Danh sách của tôi</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="card-icon-item">
+                                                        <div class="card-icon-like">
+                                                            <i class="fa-solid fa-thumbs-up"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="card-icon-more">
+                                                    <div class="card-icon-down">
+                                                        <i class="fa-solid fa-chevron-down"></i>
+                                                        <!-- More info -->
+                                                        <div class="more-info">
+                                                            <div class="more-info-text">Thông tin khác</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="card-content">
+                                                <div class="content-first">
+                                                    <span>Độ trùng: 98%</span>
+                                                </div>
+                                                <div class="content-age">
+                                                    <span>13+</span>
+                                                </div>
+                                                <div class="content-season">
+                                                    <span>1 Mùa</span>
+                                                </div>
+                                                <div class="content-quality">
+                                                    <span>HD</span>
+                                                </div>
+                                            </div>
+                                            <div class="card-type">
+                                                <ul class="card-type-list">
+                                                    <li class="card-type-item">
+                                                        <p>Lãng mạng</p>
+                                                    </li>
+                                                    <li class="card-type-item">
+                                                        <p>Hành động</p>
+                                                    </li>
+                                                    <li class="card-type-item">
+                                                        <p>Gây cấn</p>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div id="thumb0" class="thumb">
+                                <img src="./assets/img/popular/nhiem-vu-bat-kha-thi.webp" alt="" class="thumb-img">
+
+                                <div class="card netflix-card">
+                                    <img src="./assets/img/popular/nhiem-vu-bat-kha-thi.webp" alt="" class="card-movie">
+                                    <div class="card-body">
+                                        <div class="card-body-content">
+                                            <div class="card-icon">
+                                                <div class="card-icon-wrap">
+                                                    <div class="card-icon-item">
+                                                        <div class="card-icon-play">
+                                                            <i class="fa-solid fa-circle-play"></i>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="card-icon-item">
+                                                        <div class="card-icon-plus">
+                                                            <i class="fa-solid fa-circle-plus"></i>
+                                                            <!-- them vao danh sach -->
+                                                            <div class="add-list">
+                                                                <p class="add-list-text">Thêm vào Danh sách của tôi</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="card-icon-item">
+                                                        <div class="card-icon-like">
+                                                            <i class="fa-solid fa-thumbs-up"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="card-icon-more">
+                                                    <div class="card-icon-down">
+                                                        <i class="fa-solid fa-chevron-down"></i>
+                                                        <!-- More info -->
+                                                        <div class="more-info">
+                                                            <div class="more-info-text">Thông tin khác</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="card-content">
+                                                <div class="content-first">
+                                                    <span>Độ trùng: 98%</span>
+                                                </div>
+                                                <div class="content-age">
+                                                    <span>13+</span>
+                                                </div>
+                                                <div class="content-season">
+                                                    <span>1 Mùa</span>
+                                                </div>
+                                                <div class="content-quality">
+                                                    <span>HD</span>
+                                                </div>
+                                            </div>
+                                            <div class="card-type">
+                                                <ul class="card-type-list">
+                                                    <li class="card-type-item">
+                                                        <p>Lãng mạng</p>
+                                                    </li>
+                                                    <li class="card-type-item">
+                                                        <p>Hành động</p>
+                                                    </li>
+                                                    <li class="card-type-item">
+                                                        <p>Gây cấn</p>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div id="thumb0" class="thumb">
+                                <img src="./assets/img/hen-ho-chon-cong-so-2.jpeg" alt="" class="thumb-img">
+
+                                <div class="card netflix-card">
+                                    <img src="./assets/img/hen-ho-chon-cong-so.jpeg" alt="" class="card-movie">
+                                    <div class="card-body">
+                                        <div class="card-body-content">
+                                            <div class="card-icon">
+                                                <div class="card-icon-wrap">
+                                                    <div class="card-icon-item">
+                                                        <div class="card-icon-play">
+                                                            <i class="fa-solid fa-circle-play"></i>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="card-icon-item">
+                                                        <div class="card-icon-plus">
+                                                            <i class="fa-solid fa-circle-plus"></i>
+                                                            <!-- them vao danh sach -->
+                                                            <div class="add-list">
+                                                                <p class="add-list-text">Thêm vào Danh sách của tôi</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="card-icon-item">
+                                                        <div class="card-icon-like">
+                                                            <i class="fa-solid fa-thumbs-up"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="card-icon-more">
+                                                    <div class="card-icon-down">
+                                                        <i class="fa-solid fa-chevron-down"></i>
+                                                        <!-- More info -->
+                                                        <div class="more-info">
+                                                            <div class="more-info-text">Thông tin khác</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="card-content">
+                                                <div class="content-first">
+                                                    <span>Độ trùng: 98%</span>
+                                                </div>
+                                                <div class="content-age">
+                                                    <span>13+</span>
+                                                </div>
+                                                <div class="content-season">
+                                                    <span>1 Mùa</span>
+                                                </div>
+                                                <div class="content-quality">
+                                                    <span>HD</span>
+                                                </div>
+                                            </div>
+                                            <div class="card-type">
+                                                <ul class="card-type-list">
+                                                    <li class="card-type-item">
+                                                        <p>Lãng mạng</p>
+                                                    </li>
+                                                    <li class="card-type-item">
+                                                        <p>Hành động</p>
+                                                    </li>
+                                                    <li class="card-type-item">
+                                                        <p>Gây cấn</p>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+
+
+
+                        <button type="button" class="nav-slider" id="move-right">
+                            <i class="fa-solid fa-chevron-right nav-slider-icon"></i>
+                        </button>
+
                     </div>
-
-                    <div class="slider" id="popularSlider">
-                        <div id="thumb0" class="thumb">
-                            <img src="./assets/img/hen-ho-chon-cong-so-2.jpeg" alt="" class="thumb-img">
-
-                            <div class="card">
-                                <img src="./assets/img/hen-ho-chon-cong-so.jpeg" alt="" class="card-movie">
-                                <div class="card-body">
-                                    <div class="card-body-content">
-                                        <div class="card-icon">
-                                            <div class="card-icon-wrap">
-                                                <div class="card-icon-item">
-                                                    <div class="card-icon-play">
-                                                        <i class="fa-solid fa-circle-play"></i>
-                                                    </div>
-                                                </div>
-
-                                                <div class="card-icon-item">
-                                                    <div class="card-icon-plus">
-                                                        <i class="fa-solid fa-circle-plus"></i>
-                                                        <!-- them vao danh sach -->
-                                                        <div class="add-list">
-                                                            <p class="add-list-text">Thêm vào Danh sách của tôi</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-
-                                                <div class="card-icon-item">
-                                                    <div class="card-icon-like">
-                                                        <i class="fa-solid fa-thumbs-up"></i>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="card-icon-more">
-                                                <div class="card-icon-down">
-                                                    <i class="fa-solid fa-chevron-down"></i>
-                                                    <!-- More info -->
-                                                    <div class="more-info">
-                                                        <div class="more-info-text">Thông tin khác</div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="card-content">
-                                            <div class="content-first">
-                                                <span>Độ trùng: 98%</span>
-                                            </div>
-                                            <div class="content-age">
-                                                <span>13+</span>
-                                            </div>
-                                            <div class="content-season">
-                                                <span>1 Mùa</span>
-                                            </div>
-                                            <div class="content-quality">
-                                                <span>HD</span>
-                                            </div>
-                                        </div>
-                                        <div class="card-type">
-                                            <ul class="card-type-list">
-                                                <li class="card-type-item">
-                                                    <p>Lãng mạng</p>
-                                                </li>
-                                                <li class="card-type-item">
-                                                    <p>Hành động</p>
-                                                </li>
-                                                <li class="card-type-item">
-                                                    <p>Gây cấn</p>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- 2 -->
-                        <div id="thumb0" class="thumb">
-                            <img src="./assets/img/hen-ho-chon-cong-so-2.jpeg" alt="" class="thumb-img">
-
-                            <div class="card card-popular">
-                                <img src="./assets/img/hen-ho-chon-cong-so.jpeg" alt="" class="card-movie">
-                                <div class="card-body">
-                                    <div class="card-body-content">
-                                        <div class="card-icon">
-                                            <div class="card-icon-wrap">
-                                                <div class="card-icon-item">
-                                                    <div class="card-icon-play">
-                                                        <i class="fa-solid fa-circle-play"></i>
-                                                    </div>
-                                                </div>
-
-                                                <div class="card-icon-item">
-                                                    <div class="card-icon-plus">
-                                                        <i class="fa-solid fa-circle-plus"></i>
-                                                        <!-- them vao danh sach -->
-                                                        <div class="add-list">
-                                                            <p class="add-list-text">Thêm vào Danh sách của tôi</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-
-                                                <div class="card-icon-item">
-                                                    <div class="card-icon-like">
-                                                        <i class="fa-solid fa-thumbs-up"></i>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="card-icon-more">
-                                                <div class="card-icon-down">
-                                                    <i class="fa-solid fa-chevron-down"></i>
-                                                    <!-- More info -->
-                                                    <div class="more-info">
-                                                        <div class="more-info-text">Thông tin khác</div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="card-content">
-                                            <div class="content-first">
-                                                <span>Độ trùng: 98%</span>
-                                            </div>
-                                            <div class="content-age">
-                                                <span>13+</span>
-                                            </div>
-                                            <div class="content-season">
-                                                <span>1 Mùa</span>
-                                            </div>
-                                            <div class="content-quality">
-                                                <span>HD</span>
-                                            </div>
-                                        </div>
-                                        <div class="card-type">
-                                            <ul class="card-type-list">
-                                                <li class="card-type-item">
-                                                    <p>Lãng mạng</p>
-                                                </li>
-                                                <li class="card-type-item">
-                                                    <p>Hành động</p>
-                                                </li>
-                                                <li class="card-type-item">
-                                                    <p>Gây cấn</p>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div id="thumb0" class="thumb">
-                            <img src="./assets/img/hen-ho-chon-cong-so-2.jpeg" alt="" class="thumb-img">
-
-                            <div class="card card-popular">
-                                <img src="./assets/img/hen-ho-chon-cong-so.jpeg" alt="" class="card-movie">
-                                <div class="card-body">
-                                    <div class="card-body-content">
-                                        <div class="card-icon">
-                                            <div class="card-icon-wrap">
-                                                <div class="card-icon-item">
-                                                    <div class="card-icon-play">
-                                                        <i class="fa-solid fa-circle-play"></i>
-                                                    </div>
-                                                </div>
-
-                                                <div class="card-icon-item">
-                                                    <div class="card-icon-plus">
-                                                        <i class="fa-solid fa-circle-plus"></i>
-                                                        <!-- them vao danh sach -->
-                                                        <div class="add-list">
-                                                            <p class="add-list-text">Thêm vào Danh sách của tôi</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-
-                                                <div class="card-icon-item">
-                                                    <div class="card-icon-like">
-                                                        <i class="fa-solid fa-thumbs-up"></i>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="card-icon-more">
-                                                <div class="card-icon-down">
-                                                    <i class="fa-solid fa-chevron-down"></i>
-                                                    <!-- More info -->
-                                                    <div class="more-info">
-                                                        <div class="more-info-text">Thông tin khác</div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="card-content">
-                                            <div class="content-first">
-                                                <span>Độ trùng: 98%</span>
-                                            </div>
-                                            <div class="content-age">
-                                                <span>13+</span>
-                                            </div>
-                                            <div class="content-season">
-                                                <span>1 Mùa</span>
-                                            </div>
-                                            <div class="content-quality">
-                                                <span>HD</span>
-                                            </div>
-                                        </div>
-                                        <div class="card-type">
-                                            <ul class="card-type-list">
-                                                <li class="card-type-item">
-                                                    <p>Lãng mạng</p>
-                                                </li>
-                                                <li class="card-type-item">
-                                                    <p>Hành động</p>
-                                                </li>
-                                                <li class="card-type-item">
-                                                    <p>Gây cấn</p>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div id="thumb0" class="thumb">
-                            <img src="./assets/img/hen-ho-chon-cong-so-2.jpeg" alt="" class="thumb-img">
-
-                            <div class="card card-popular">
-                                <img src="./assets/img/hen-ho-chon-cong-so.jpeg" alt="" class="card-movie">
-                                <div class="card-body">
-                                    <div class="card-body-content">
-                                        <div class="card-icon">
-                                            <div class="card-icon-wrap">
-                                                <div class="card-icon-item">
-                                                    <div class="card-icon-play">
-                                                        <i class="fa-solid fa-circle-play"></i>
-                                                    </div>
-                                                </div>
-
-                                                <div class="card-icon-item">
-                                                    <div class="card-icon-plus">
-                                                        <i class="fa-solid fa-circle-plus"></i>
-                                                        <!-- them vao danh sach -->
-                                                        <div class="add-list">
-                                                            <p class="add-list-text">Thêm vào Danh sách của tôi</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-
-                                                <div class="card-icon-item">
-                                                    <div class="card-icon-like">
-                                                        <i class="fa-solid fa-thumbs-up"></i>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="card-icon-more">
-                                                <div class="card-icon-down">
-                                                    <i class="fa-solid fa-chevron-down"></i>
-                                                    <!-- More info -->
-                                                    <div class="more-info">
-                                                        <div class="more-info-text">Thông tin khác</div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="card-content">
-                                            <div class="content-first">
-                                                <span>Độ trùng: 98%</span>
-                                            </div>
-                                            <div class="content-age">
-                                                <span>13+</span>
-                                            </div>
-                                            <div class="content-season">
-                                                <span>1 Mùa</span>
-                                            </div>
-                                            <div class="content-quality">
-                                                <span>HD</span>
-                                            </div>
-                                        </div>
-                                        <div class="card-type">
-                                            <ul class="card-type-list">
-                                                <li class="card-type-item">
-                                                    <p>Lãng mạng</p>
-                                                </li>
-                                                <li class="card-type-item">
-                                                    <p>Hành động</p>
-                                                </li>
-                                                <li class="card-type-item">
-                                                    <p>Gây cấn</p>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div id="thumb0" class="thumb">
-                            <img src="./assets/img/hen-ho-chon-cong-so-2.jpeg" alt="" class="thumb-img">
-
-                            <div class="card card-popular">
-                                <img src="./assets/img/hen-ho-chon-cong-so.jpeg" alt="" class="card-movie">
-                                <div class="card-body">
-                                    <div class="card-body-content">
-                                        <div class="card-icon">
-                                            <div class="card-icon-wrap">
-                                                <div class="card-icon-item">
-                                                    <div class="card-icon-play">
-                                                        <i class="fa-solid fa-circle-play"></i>
-                                                    </div>
-                                                </div>
-
-                                                <div class="card-icon-item">
-                                                    <div class="card-icon-plus">
-                                                        <i class="fa-solid fa-circle-plus"></i>
-                                                        <!-- them vao danh sach -->
-                                                        <div class="add-list">
-                                                            <p class="add-list-text">Thêm vào Danh sách của tôi</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-
-                                                <div class="card-icon-item">
-                                                    <div class="card-icon-like">
-                                                        <i class="fa-solid fa-thumbs-up"></i>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="card-icon-more">
-                                                <div class="card-icon-down">
-                                                    <i class="fa-solid fa-chevron-down"></i>
-                                                    <!-- More info -->
-                                                    <div class="more-info">
-                                                        <div class="more-info-text">Thông tin khác</div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="card-content">
-                                            <div class="content-first">
-                                                <span>Độ trùng: 98%</span>
-                                            </div>
-                                            <div class="content-age">
-                                                <span>13+</span>
-                                            </div>
-                                            <div class="content-season">
-                                                <span>1 Mùa</span>
-                                            </div>
-                                            <div class="content-quality">
-                                                <span>HD</span>
-                                            </div>
-                                        </div>
-                                        <div class="card-type">
-                                            <ul class="card-type-list">
-                                                <li class="card-type-item">
-                                                    <p>Lãng mạng</p>
-                                                </li>
-                                                <li class="card-type-item">
-                                                    <p>Hành động</p>
-                                                </li>
-                                                <li class="card-type-item">
-                                                    <p>Gây cấn</p>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div id="thumb0" class="thumb">
-                            <img src="./assets/img/hen-ho-chon-cong-so-2.jpeg" alt="" class="thumb-img">
-
-                            <div class="card card-popular">
-                                <img src="./assets/img/hen-ho-chon-cong-so.jpeg" alt="" class="card-movie">
-                                <div class="card-body">
-                                    <div class="card-body-content">
-                                        <div class="card-icon">
-                                            <div class="card-icon-wrap">
-                                                <div class="card-icon-item">
-                                                    <div class="card-icon-play">
-                                                        <i class="fa-solid fa-circle-play"></i>
-                                                    </div>
-                                                </div>
-
-                                                <div class="card-icon-item">
-                                                    <div class="card-icon-plus">
-                                                        <i class="fa-solid fa-circle-plus"></i>
-                                                        <!-- them vao danh sach -->
-                                                        <div class="add-list">
-                                                            <p class="add-list-text">Thêm vào Danh sách của tôi</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-
-                                                <div class="card-icon-item">
-                                                    <div class="card-icon-like">
-                                                        <i class="fa-solid fa-thumbs-up"></i>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="card-icon-more">
-                                                <div class="card-icon-down">
-                                                    <i class="fa-solid fa-chevron-down"></i>
-                                                    <!-- More info -->
-                                                    <div class="more-info">
-                                                        <div class="more-info-text">Thông tin khác</div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="card-content">
-                                            <div class="content-first">
-                                                <span>Độ trùng: 98%</span>
-                                            </div>
-                                            <div class="content-age">
-                                                <span>13+</span>
-                                            </div>
-                                            <div class="content-season">
-                                                <span>1 Mùa</span>
-                                            </div>
-                                            <div class="content-quality">
-                                                <span>HD</span>
-                                            </div>
-                                        </div>
-                                        <div class="card-type">
-                                            <ul class="card-type-list">
-                                                <li class="card-type-item">
-                                                    <p>Lãng mạng</p>
-                                                </li>
-                                                <li class="card-type-item">
-                                                    <p>Hành động</p>
-                                                </li>
-                                                <li class="card-type-item">
-                                                    <p>Gây cấn</p>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div id="thumb0" class="thumb">
-                            <img src="./assets/img/hen-ho-chon-cong-so-2.jpeg" alt="" class="thumb-img">
-
-                            <div class="card card-popular">
-                                <img src="./assets/img/hen-ho-chon-cong-so.jpeg" alt="" class="card-movie">
-                                <div class="card-body">
-                                    <div class="card-body-content">
-                                        <div class="card-icon">
-                                            <div class="card-icon-wrap">
-                                                <div class="card-icon-item">
-                                                    <div class="card-icon-play">
-                                                        <i class="fa-solid fa-circle-play"></i>
-                                                    </div>
-                                                </div>
-
-                                                <div class="card-icon-item">
-                                                    <div class="card-icon-plus">
-                                                        <i class="fa-solid fa-circle-plus"></i>
-                                                        <!-- them vao danh sach -->
-                                                        <div class="add-list">
-                                                            <p class="add-list-text">Thêm vào Danh sách của tôi</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-
-                                                <div class="card-icon-item">
-                                                    <div class="card-icon-like">
-                                                        <i class="fa-solid fa-thumbs-up"></i>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="card-icon-more">
-                                                <div class="card-icon-down">
-                                                    <i class="fa-solid fa-chevron-down"></i>
-                                                    <!-- More info -->
-                                                    <div class="more-info">
-                                                        <div class="more-info-text">Thông tin khác</div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="card-content">
-                                            <div class="content-first">
-                                                <span>Độ trùng: 98%</span>
-                                            </div>
-                                            <div class="content-age">
-                                                <span>13+</span>
-                                            </div>
-                                            <div class="content-season">
-                                                <span>1 Mùa</span>
-                                            </div>
-                                            <div class="content-quality">
-                                                <span>HD</span>
-                                            </div>
-                                        </div>
-                                        <div class="card-type">
-                                            <ul class="card-type-list">
-                                                <li class="card-type-item">
-                                                    <p>Lãng mạng</p>
-                                                </li>
-                                                <li class="card-type-item">
-                                                    <p>Hành động</p>
-                                                </li>
-                                                <li class="card-type-item">
-                                                    <p>Gây cấn</p>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div id="thumb0" class="thumb">
-                            <img src="./assets/img/hen-ho-chon-cong-so-2.jpeg" alt="" class="thumb-img">
-
-                            <div class="card card-popular">
-                                <img src="./assets/img/hen-ho-chon-cong-so.jpeg" alt="" class="card-movie">
-                                <div class="card-body">
-                                    <div class="card-body-content">
-                                        <div class="card-icon">
-                                            <div class="card-icon-wrap">
-                                                <div class="card-icon-item">
-                                                    <div class="card-icon-play">
-                                                        <i class="fa-solid fa-circle-play"></i>
-                                                    </div>
-                                                </div>
-
-                                                <div class="card-icon-item">
-                                                    <div class="card-icon-plus">
-                                                        <i class="fa-solid fa-circle-plus"></i>
-                                                        <!-- them vao danh sach -->
-                                                        <div class="add-list">
-                                                            <p class="add-list-text">Thêm vào Danh sách của tôi</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-
-                                                <div class="card-icon-item">
-                                                    <div class="card-icon-like">
-                                                        <i class="fa-solid fa-thumbs-up"></i>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="card-icon-more">
-                                                <div class="card-icon-down">
-                                                    <i class="fa-solid fa-chevron-down"></i>
-                                                    <!-- More info -->
-                                                    <div class="more-info">
-                                                        <div class="more-info-text">Thông tin khác</div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="card-content">
-                                            <div class="content-first">
-                                                <span>Độ trùng: 98%</span>
-                                            </div>
-                                            <div class="content-age">
-                                                <span>13+</span>
-                                            </div>
-                                            <div class="content-season">
-                                                <span>1 Mùa</span>
-                                            </div>
-                                            <div class="content-quality">
-                                                <span>HD</span>
-                                            </div>
-                                        </div>
-                                        <div class="card-type">
-                                            <ul class="card-type-list">
-                                                <li class="card-type-item">
-                                                    <p>Lãng mạng</p>
-                                                </li>
-                                                <li class="card-type-item">
-                                                    <p>Hành động</p>
-                                                </li>
-                                                <li class="card-type-item">
-                                                    <p>Gây cấn</p>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-
-                    </div>
-
-
-
-                    <button type="button" class="nav-slider" id="move-right">
-                        <i class="fa-solid fa-chevron-right nav-slider-icon"></i>
-                    </button>
                 </div>
 
             </section>

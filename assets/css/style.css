@@ -254,21 +254,68 @@ body {
     margin-top: 300px;
 }
 
-.popular__content {
+.netflix__content {
+    position: relative;
+    top: -96px;
+}
+.netflix__content section {
+    margin-bottom: 54px;
+}
+.netflix-content {
     position: relative;
     margin-left: 4%;
 }
-.popular__content h2 {
+.netflix-content .content-header-link {
     margin-bottom: 10px;
     cursor: pointer;
+    text-decoration: none;
+    color: var(--white-color);
+    font-weight: 400;
+    font-size: 18px;
+    display: flex;
+}
+.content-header:hover .sub-header-link {
+    transform: translateX(0px);
+    transition-delay: 0.2s;
+    animation: fadeIn 0.4s ease-in-out;
+    opacity: 1;
+}
+.content-header:hover .sub-header-icon {
+    transform: translateX(0px);
+    opacity: 1;
 }
 
-.popular__content:hover .nav-slider, .popular__content:hover .popular-indicator{
+
+.content-header-link .sub-header {
+    display: flex;
+    cursor: pointer;
+    margin-left: 14px;
+    font-size: 12px;
+    align-items: end;
+    margin-bottom: 3px;
+}
+
+.sub-header .sub-header-link {
+    margin-right: 2px;
+    transition-delay: 0.4s;
+    transform: translateX(-12px);
+    opacity: 0;
+    transition: transform 0.4s ease-in-out;
+    will-change: transform transition opacity;
+}
+.sub-header .sub-header-icon {
+    font-size: 10px;transform: translateX(-86px);
+    opacity: 0;
+    transition: transform 0.4s ease-in-out;
+    will-change: transform transition opacity;
+}
+
+.netflix-content-body:hover .nav-slider, .netflix-content-body:hover .slider-indicator{
     visibility: visible;
 }
 /* slider */
 
-.popular-indicator {
+.slider-indicator {
     width: 100px;
     position: absolute;
     display: block;
@@ -278,7 +325,7 @@ body {
     visibility: hidden;
 }
 
-.popular-indicator .indicator {
+.slider-indicator .indicator {
   width: 15px;
   height: 2px;
   background-color: grey;
@@ -319,7 +366,7 @@ body {
     border-radius: 6px;
 }
 
-.thumb:hover .card, .thumb:hover .card-popular{
+.thumb:hover .card, .thumb:hover .netflix-card{
     display: block; 
 }
 
@@ -333,7 +380,7 @@ body {
     display: block;
 }
 
-.thumb:nth-child(6n):hover .card-popular{
+.thumb:nth-child(6n):hover .netflix-card{
     display: block;
     margin-bottom: 1rem;
     transform: translateX(-100px) translateY(0px) scale(1);
@@ -342,10 +389,11 @@ body {
 /* nav-slider */
 .nav-slider {
     width: 4%;
-    height: var(--thumb-height);
-    border-radius: 6px;
+    height: calc(var(--thumb-height) + 1px);
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
     position: absolute;
-    top: calc(var(--thumb-height) - 91px);
+    top: calc(var(--thumb-height) - 87px);
     outline: none;
     border: none;
     z-index: 20;
@@ -385,10 +433,11 @@ body {
     margin-bottom: 1rem;
     animation: cardStranSform 0.6s ease-in-out;
     border-radius: 6px;
+    z-index: 999;
 }
 
 
-.card-popular {
+.netflix-card {
     display: none;
     top: var(--card-movie-top);
     margin-bottom: 1rem;
