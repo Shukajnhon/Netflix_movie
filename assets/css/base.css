@@ -11,6 +11,8 @@
     --thumb-height: 124px;
     --thumb-width: 220px;
     --card-movie-top: -80px;
+    --rank-height: 160px;
+    --rank-width: 190px;
 }
 
 @keyframes fadeIn {
