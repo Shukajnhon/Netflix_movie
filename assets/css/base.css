@@ -10,9 +10,41 @@
     --slider-width-item: 326px;
     --thumb-height: 124px;
     --thumb-width: 220px;
-    --card-movie-top: -80px;
+    /* --card-movie-top: -80px; */
+    --card-movie-top: -110px;
     --rank-height: 160px;
     --rank-width: 190px;
+}
+
+
+@keyframes cardStranSform {
+    0% {
+        /* transform: translateX(-54px) translateY(-20px) scale(0.67777); */
+        transform: translateX(-54px) translateY(40px) scale(0.67777);
+    }
+    100% {
+        transform: translateX(0) translateY(0px) scale(1);
+    }
+}
+
+@keyframes cardStranSform2 {
+    0% {
+        transform: translateX(-54px) translateY(40px) scale(0.67777);
+    }
+    100% {
+        transform: translateX(-54px) translateY(0px) scale(1);
+    }
+}
+
+@keyframes cardStranSform3 {
+    0% {
+        /* transform: translateX(-54px) translateY(-20px) scale(0.67777); */
+        transform: translateX(-54px) translateY(40px) scale(0.67777);
+    }
+    100% {
+        
+        transform: translateX(-100px) translateY(0px) scale(1);
+    }
 }
 
 @keyframes fadeIn {

@@ -249,17 +249,17 @@ body {
     font-weight: 100;
     line-height: 2;
 }
-
+/* 
 .a {
     margin-top: 300px;
-}
+} */
 
 .netflix__content {
     position: relative;
     top: -96px;
 }
 .netflix__content section {
-    margin-bottom: 54px;
+    margin-bottom: 40px;
 }
 .netflix-content {
     position: relative;
@@ -474,34 +474,6 @@ body {
     /* right: 0; */
 }
 
-@keyframes cardStranSform {
-    0% {
-        transform: translateX(-54px) translateY(-20px) scale(0.67777);
-    }
-    100% {
-        transform: translateX(0) translateY(0px) scale(1);
-    }
-}
-
-@keyframes cardStranSform2 {
-    0% {
-        transform: translateX(-54px) translateY(-20px) scale(0.67777);
-    }
-    100% {
-        transform: translateX(-54px) translateY(0px) scale(1);
-    }
-}
-
-@keyframes cardStranSform3 {
-    0% {
-        transform: translateX(-54px) translateY(-20px) scale(0.67777);
-        /* transform: translateX(-54px) translateY(0px) scale(0.67777); */
-    }
-    100% {
-        
-        transform: translateX(-100px) translateY(0px) scale(1);
-    }
-}
 
 .card{
     width: var(--thumb-width)
@@ -780,6 +752,67 @@ body {
     margin: 0;
     font-size: 16px;
     font-weight: 200;
+}
+
+/* footer */
+.footer {
+    max-width: 980px;
+    margin: 20px auto 0;
+    padding: 0 4%;
+    color: grey;
+}
+
+.footer .footer__social-links {
+    margin-bottom: 16px;
+}
+
+.footer .footer__social-links .social-link {
+    text-decoration: none;
+    color: var(--white-color);
+    cursor: pointer;
+    font-size: 2rem;
+    margin-right: 15px;
+}
+
+.footer .footer__member-links {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: flex-start;
+    list-style-type: none;
+    margin-bottom: 14px;    
+}
+
+.footer__member-links .member-link-item {
+    flex-basis: 25%;
+    margin-bottom: 16px;    
+
+}
+
+.footer__member-links .member-link-item:hover .link{
+    text-decoration: underline;
+}
+
+.footer__member-links .member-link-item .link {
+    text-decoration: none;
+    color: grey;
+    font-size: 1.3rem;
+}
+
+.footer__member-service .member-service-btn {
+    font-size: 1.3rem;
+    padding: 4px;
+    margin-bottom: 20px;
+    background: 0 0;
+    color: grey;
+    border: solid 1px grey;
+    cursor: pointer;
+}
+.footer__member-copyright {
+    margin-bottom: 15px;
+}
+.footer__member-copyright span {
+    font-size: 1.1rem;
 }
 
 
