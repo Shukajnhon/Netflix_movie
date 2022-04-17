@@ -1,7 +1,11 @@
 :root {
+
+
     --background-color: #141414;
     --background-btn: #5c5c5c;
     --white-color: #fff;
+
+    --header-height: 68px;
 
     /* --slider-height: 121px;
     --slider-width-item: 218px; */

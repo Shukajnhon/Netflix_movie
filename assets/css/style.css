@@ -26,7 +26,7 @@ body {
     right: 0;
     left: 0;
     width: 100%;
-    height: 68px;
+    height: var(--header-height);
     display: flex;
     justify-content: space-between;
     padding: 0 4%;
@@ -37,7 +37,7 @@ body {
 
 .header__logo {
     padding-top: 10px;
-    min-width: 150px;
+    width: 150px;
 }
 
 .header__logo-img {
@@ -71,6 +71,70 @@ body {
     color: #b3b3b3;
     transition: color 0.5s;
 }
+/* dropdown navbar  */
+.nav__dropdown {
+    display: none;
+    flex: 1;
+}
+
+.nav__dropdown-content {
+    display: inline-block;
+    text-decoration: none;
+    color: var(--white-color);
+    position: relative;
+    font-size: 1.3rem;
+}
+.nav__dropdown-content::after {
+    content: '';
+    position: absolute;
+    top: 14px;
+    left: 0;
+    width: 100%;
+    height: 42px;
+    /* background-color: red; */
+}
+.nav__dropdown-content:hover .nav__dropdown-list{
+    display: block;
+}
+
+
+.nav__dropdown-list {
+    display: none;
+    position: absolute;
+    top: 56px;
+    left: -100%;
+    transform: translateX(4%);
+    min-height: 30vh;
+    width: 200px;
+    list-style: none;
+    background-color: rgba(0, 0, 0, 0.9);
+    border-top: 2px solid #fff;
+} 
+.nav__dropdown-list::before {
+    content: '';
+    position: absolute;
+    top: -16px;
+    transform: translateX(50%);
+    right: 50%;
+    border-width: 8px 8px;
+    border-style: solid;
+    border-color: transparent transparent var(--white-color) transparent;
+}
+
+.nav__dropdown-list .nav__dropdown-item .nav__dropdown-link{
+    text-decoration: none;
+    /* color: var(--white-color); */
+    color: grey;
+    font-size: 1.3rem;
+    display: block;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-align: center;
+}
+.nav__dropdown-list .nav__dropdown-item .nav__dropdown-link:hover {
+    background-color: rgba(255, 255, 255, 0.125);;
+}
+
 
 
 .secondary__navbar {
@@ -800,13 +864,16 @@ body {
 }
 
 .footer__member-service .member-service-btn {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     padding: 4px;
     margin-bottom: 20px;
     background: 0 0;
     color: grey;
     border: solid 1px grey;
     cursor: pointer;
+}
+.footer__member-service .member-service-btn:hover {
+    color: var(--white-color);
 }
 .footer__member-copyright {
     margin-bottom: 15px;

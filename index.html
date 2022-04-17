@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="./assets/css/grid.css">
     <link rel="stylesheet" href="./assets/css/base.css">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
 
 </head>
 
@@ -28,7 +29,7 @@
                     <a href="">Trang chủ</a>
                 </li>
                 <li class="header__navbar-items">
-                    <a href="">T.hình</a>
+                    <a href="">Phim T.hình</a>
                 </li>
                 <li class="header__navbar-items">
                     <a href="">Phim</a>
@@ -40,6 +41,37 @@
                     <a href="">Danh sách của tôi</a>
                 </li>
             </ul>
+
+            <!-- dropdown navbar -->
+            <div class="nav__dropdown">
+                <div class="nav__dropdown-content">
+                    Duyệt tìm
+                    <i class="fa-solid fa-caret-down nav__dropdown-list-icon"></i>
+
+                    <!-- dropdown list -->
+                    <ul class="nav__dropdown-list">
+
+                        <li class="nav__dropdown-item">
+                            <a class="nav__dropdown-link" href="#">Trang chủ</a>
+                        </li>
+                        <li class="nav__dropdown-item">
+                            <a class="nav__dropdown-link" href="#">Phim T.hình</a>
+                        </li>
+                        <li class="nav__dropdown-item">
+                            <a class="nav__dropdown-link" href="#">Phim</a>
+                        </li>
+                        <li class="nav__dropdown-item">
+                            <a class="nav__dropdown-link" href="#">Mới & Phổ biến</a>
+                        </li>
+                        <li class="nav__dropdown-item">
+                            <a class="nav__dropdown-link" href="#">Danh sách của tôi</a>
+                        </li>
+
+                    </ul>
+                </div>
+
+
+            </div>
 
             <div class="secondary__navbar">
                 <div class="secondary__navbar-items">
@@ -140,8 +172,8 @@
                             <div class="indicator" data-index="2"></div>
                         </div>
 
-                        <div class="slider" id="popularSlider">
-                            <div id="thumb0" class="thumb">
+                        <div class="slider" id="newThisWeekSlider">
+                            <div id="" class="thumb thumb_newThisWeek">
                                 <img src="./assets/img/newThisWeek/yaksha.jpeg" alt="" class="thumb-img">
 
                                 <div class="card">
@@ -216,7 +248,7 @@
                             </div>
 
                             <!-- 2 -->
-                            <div id="thumb0" class="thumb">
+                            <div id="" class="thumb thumb_newThisWeek">
                                 <img src="./assets/img/newThisWeek/all-of-us-are-dead.jpeg" alt="" class="thumb-img">
 
                                 <div class="card netflix-card">
@@ -291,7 +323,7 @@
                                 </div>
                             </div>
 
-                            <div id="thumb0" class="thumb">
+                            <div id="" class="thumb thumb_newThisWeek">
                                 <img src="./assets/img/newThisWeek/Blues.jpeg" alt="" class="thumb-img">
 
                                 <div class="card netflix-card">
@@ -365,7 +397,7 @@
                                 </div>
                             </div>
 
-                            <div id="thumb0" class="thumb">
+                            <div id="" class="thumb thumb_newThisWeek">
                                 <img src="./assets/img/newThisWeek/brigerton.jpeg" alt="" class="thumb-img">
 
                                 <div class="card netflix-card">
@@ -439,7 +471,7 @@
                                 </div>
                             </div>
 
-                            <div id="thumb0" class="thumb">
+                            <div id="" class="thumb thumb_newThisWeek">
                                 <img src="./assets/img/newThisWeek/chung-cu-co-doc.webp" alt="" class="thumb-img">
 
                                 <div class="card netflix-card">
@@ -513,7 +545,7 @@
                                 </div>
                             </div>
 
-                            <div id="thumb0" class="thumb">
+                            <div id="" class="thumb thumb_newThisWeek">
                                 <img src="./assets/img/newThisWeek/Trum-com-va-ac-quy.jpeg" alt="" class="thumb-img">
 
                                 <div class="card netflix-card">
@@ -588,7 +620,7 @@
                                 </div>
                             </div>
 
-                            <div id="thumb0" class="thumb">
+                            <div id="" class="thumb thumb_newThisWeek">
                                 <img src="./assets/img/newThisWeek/tomorrow.jpeg" alt="" class="thumb-img">
 
                                 <div class="card netflix-card">
@@ -662,7 +694,7 @@
                                 </div>
                             </div>
 
-                            <div id="thumb0" class="thumb">
+                            <div id="" class="thumb thumb_newThisWeek">
                                 <img src="./assets/img/newThisWeek/tomorrow.jpeg" alt="" class="thumb-img">
 
                                 <div class="card netflix-card">
@@ -1293,10 +1325,11 @@
                             </div>
 
                             <div id="thumb0" class="thumb">
-                                <img src="./assets/img/hen-ho-chon-cong-so-2.jpeg" alt="" class="thumb-img">
+                                <img src="./assets/img/popular/hen-ho-chon-cong-so-2.jpeg" alt="" class="thumb-img">
 
                                 <div class="card netflix-card">
-                                    <img src="./assets/img/hen-ho-chon-cong-so.jpeg" alt="" class="card-movie">
+                                    <img src="./assets/img/popular/hen-ho-chon-cong-so-2.jpeg" alt=""
+                                        class="card-movie">
                                     <div class="card-body">
                                         <div class="card-body-content">
                                             <div class="card-icon">
@@ -1405,7 +1438,7 @@
                             <div class="indicator" data-index="2"></div>
                         </div>
 
-                        <div class="slider" id="popularSlider">
+                        <div class="slider" id="mostWatchedSlider">
                             <div id="thumb0" class="thumb">
                                 <div class="thumb-svg">
                                     <div class="svg-number">
@@ -2101,7 +2134,7 @@
                             <div class="indicator" data-index="2"></div>
                         </div>
 
-                        <div class="slider" id="popularSlider">
+                        <div class="slider" id="continue_watchingSlider">
                             <div id="thumb0" class="thumb">
                                 <img src="./assets/img/continue_watching/img1.webp" alt="" class="thumb-img">
 
@@ -2657,7 +2690,7 @@
                             <div class="indicator" data-index="2"></div>
                         </div>
 
-                        <div class="slider" id="popularSlider">
+                        <div class="slider" id="genreSlider">
                             <div id="thumb0" class="thumb">
                                 <img src="./assets/img/genre/img1.webp" alt="" class="thumb-img">
 
@@ -3213,7 +3246,7 @@
                             <div class="indicator" data-index="2"></div>
                         </div>
 
-                        <div class="slider" id="popularSlider">
+                        <div class="slider" id="cartonSlider">
                             <div id="thumb0" class="thumb">
                                 <img src="./assets/img/carton/img1.webp" alt="" class="thumb-img">
 
@@ -3745,8 +3778,6 @@
             </section>
 
 
-
-
         </div>
 
 
@@ -3852,6 +3883,7 @@
     </div>
 
 
+    <script src="./assets/js/main.js"></script>
 </body>
 
 </html>
