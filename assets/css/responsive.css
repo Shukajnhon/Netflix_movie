@@ -1,5 +1,55 @@
 /* Mobile & Tablet  */
 @media (max-width: 1023px) {
+    .header {
+        justify-content: start;
+    }
+    .header__logo {
+        width: 90px;
+     }
+    .header__logo-img {
+        height: 22px;
+        width: 72px;
+    }
+    .header__navbar-lists {
+        display: none;
+    }
+    .nav__dropdown {
+        display: block;
+    }
+
+    /*secondary  */
+    .secondary__navbar {
+        margin-right: 15px;;
+    }
+
+    .secondary__navbar-items:not(:last-child) {
+        margin-right: 13px;
+    }
+
+    .secondary__navbar-notification i {
+        padding: 6px;
+        font-size: 1.8rem; 
+    }
+
+    .secondary__navbar-account-img {
+        width: 25px;
+        height: 25px;
+    }
+
+    .secondary__navbar-account-icon {
+        margin-left: 8px;
+    }
+
+    /* carousel info */
+    
+
+    .carousel__info-desc {
+        display: none;
+    }
+
+    .carousel__info-btn {
+        height: 36px;
+    }
     
 }
 
@@ -8,24 +58,17 @@
     :root {
         --header-height: 41px
     }
-   
-    .header {
-        justify-content: start;
-    }
-    .header__logo {
-        width: 90px;
-     }
-    .header__logo-img {
-        height: 22px;
-        width: 72px;
-    }
-    .header__navbar-lists {
-        display: none;
-    }
-    .nav__dropdown {
-        display: block;
+    .carousel__info {
+        top: 40%;
+        transform: translateY(40%);
     }
    
+    .carousel__info-title h3 {
+        font-size: 1.8rem;
+        font-weight: 500;
+        background: transparent;
+    }
+
 }
 
 /* mobile */
@@ -33,22 +76,14 @@
     :root {
         --header-height: 41px
     }
-    .header {
-        justify-content: start;
+    .carousel__info-title h3 {
+        font-size: 1.5rem;
+        font-weight: 500;
+        background: transparent;
     }
-    .header__logo {
-        width: 90px;
-     }
-    .header__logo-img {
-        height: 22px;
-        width: 72px;
+    .carousel__info-btn {
+        height: 30px;
+        
     }
-    .header__navbar-lists {
-        display: none;
-    }
-    .nav__dropdown {
-        display: block;
-    }
-
     
 }

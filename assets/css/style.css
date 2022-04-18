@@ -104,7 +104,7 @@ body {
     top: 56px;
     left: -100%;
     transform: translateX(4%);
-    min-height: 30vh;
+    /* min-height: 30vh; */
     width: 200px;
     list-style: none;
     background-color: rgba(0, 0, 0, 0.9);
@@ -170,7 +170,7 @@ body {
 .carousel {
     position: relative;
     /* width: 100%; */
-    min-height: 100vh;
+    /* min-height: 100vh; */
 }
 
 .carousel .video-1 { 
@@ -188,9 +188,9 @@ body {
 
 .carousel__info {
     position: absolute;
-    top: 30%;
+    top: 34%;
+    transform: translateY(-34%);
     left: 4%;
-    bottom: 35%;
     display: block;
     max-width: 518px;
     max-height: 526px;
