@@ -41,7 +41,11 @@
     }
 
     /* carousel info */
-    
+    .carousel__info {
+        min-width: 400px;
+        /* top: 42%; */
+        top: 35%;
+    }
 
     .carousel__info-desc {
         display: none;
@@ -51,6 +55,25 @@
         height: 36px;
     }
     
+    .carousel__info-link-btn {
+        width: 109px;
+        padding-left: 13px;
+    }
+    .carousel__info-link-btn .info-link-btn-icon {
+        font-size: 1.5rem;
+    }
+    .carousel__btn {
+        width: 46%;
+    }
+    .carousel__info-link-btn span, .carousel__btn-wrap span {
+        font-size: 1.5rem;
+    }
+
+    /* carousel embed */
+    .carousel__embed {
+        bottom: 50%;
+        width: 10%;
+    }
 }
 
 /* Tablet */
@@ -69,6 +92,12 @@
         background: transparent;
     }
 
+    /* carousel embed */
+    .carousel__embed {
+        bottom: 35%;
+        width: 10%;
+    }
+
 }
 
 /* mobile */
@@ -76,14 +105,22 @@
     :root {
         --header-height: 41px
     }
+    /* carousel */
     .carousel__info-title h3 {
         font-size: 1.5rem;
         font-weight: 500;
         background: transparent;
     }
     .carousel__info-btn {
-        height: 30px;
+        height: 32px;
         
     }
-    
+    .carousel__btn {
+        width: 40%;
+    }
+     /* carousel embed */
+     .carousel__embed {
+        bottom: 45%;
+        width: 10%;
+    }
 }
